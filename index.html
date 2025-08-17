@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dragon — Portfolio</title>
+  <meta name="description" content="Professional portfolio of Dragon (dragonsenseiguy): Python, Data Science & Web Development." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:,">
+  <script src="assets/js/inline-theme-init.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <a href="index.html" data-nav>Dragon</a>
+        <small class="muted">@dragonsenseiguy</small>
+      </div>
+      <nav class="nav-links">
+        <a href="about.html" data-nav>About</a>
+        <a href="projects.html" data-nav>Projects</a>
+        <a href="technologies.html" data-nav>Technologies</a>
+        <button type="button" data-theme-toggle aria-pressed="false" aria-label="Toggle dark mode">Theme</button>
+        <a href="https://github.com/dragonsenseiguy" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hi, I'm Dragon — Python, Data Science, and Web Developer</h1>
+      <p>I'm a developer passionate about building practical tools and data-driven applications. I work across Python (automation, data science, GUI), and full‑stack web development with Flask and modern front‑end tooling. I contribute to open‑source projects like Kimi‑K2 and build things like Sigma Browser.</p>
+      <div class="cta">
+        <a class="btn primary" href="projects.html">View Projects</a>
+        <a class="btn" href="about.html">About Me</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Kimi‑K2 (Contributor)</h3>
+          <p class="muted">Open‑source project by MoonshotAI. I contributed features and improvements.</p>
+          <div class="meta">
+            <span class="tag">Open Source</span>
+            <span class="tag">AI</span>
+            <a class="btn" href="https://github.com/MoonshotAI/Kimi-K2" target="_blank" rel="noopener">Repo</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Sigma Browser</h3>
+          <p class="muted">A browser project focused on performance and modern web technologies.</p>
+          <div class="meta">
+            <span class="tag">Web</span>
+            <span class="tag">JavaScript</span>
+            <a class="btn" href="https://github.com/DragonSenseiGuy/Sigma-Browser" target="_blank" rel="noopener">Repo</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>WWW Sigma</h3>
+          <p class="muted">Website for Sigma Browser with docs and resources.</p>
+          <div class="meta">
+            <span class="tag">Docs</span>
+            <span class="tag">Website</span>
+            <a class="btn" href="https://github.com/DragonSenseiGuy/www-sigma" target="_blank" rel="noopener">Repo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>What I Work With</h2>
+      <p class="lead">Python, Data Science (Pandas, NumPy, scikit‑learn), Web (Flask, HTML, CSS, Bootstrap), and automation (Selenium, Requests).</p>
+      <a class="btn" href="technologies.html">See full list of technologies</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Dragon · <a href="https://github.com/dragonsenseiguy" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
